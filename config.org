@@ -11,6 +11,10 @@
 #+BEGIN_SRC emacs-lisp
 (defalias 'yes-or-no-p 'y-or-n-p)
 #+END_SRC
+** line numbers
+#+BEGIN_SRC emacs-lisp
+  (global-linum-mode t)
+#+END_SRC
 ** remove backups
 #+BEGIN_SRC emacs-lisp
 (setq make-backup-file nil)
